@@ -11,8 +11,9 @@ body {
 /* header style */
 
 .header-content {
-    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url(images/Banner\ Image.png);
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(images/Banner\ Image.png);
     height: 600px;
+    margin-bottom: 120px;
 }
 
 .happy-title {
@@ -34,4 +35,351 @@ body {
     line-height: 95px;
     text-align: center;
     padding: 0px 144px;
+}
+
+
+/* main styles */
+
+/* discount style */
+.discount {
+    margin-bottom: 120px;
+}
+
+.title-discount {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: bold;
+}
+
+.discount-description {
+    padding-top: 50px;
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.discount-categories {
+    padding-top: 16px;
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.discount-img {
+    padding-top: 50px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+.midnight-content {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(images/Vectorrr.png);
+    height: 600px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.party-details {
+    padding-left: 130px;
+}
+
+
+.party-heading {
+    color: #FFF;
+    font-size: 64px;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    padding-bottom: 25px;
+}
+
+.party-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+
+.btn-join {
+    background-color: #07021100;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border-style: none;
+}
+
+.party-img {
+    padding-right: 140px;
+}
+
+
+
+.place-date {
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin-bottom: 120px;
+}
+
+.text-line {
+    padding: 100px 385px 48px 385px;
+}
+
+
+.same-tag {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.same-line {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.place-join {
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #F00;
+    border-style: none;
+    display: block;
+    margin: 0 auto 110px auto;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+
+.offer-tag {
+    font-family: 'Inter', sans-serif;
+    color: #F00;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+
+.offer-comming {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    padding-bottom: 22px;
+    width: 393px;
+}
+
+.offer-descriptation {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+
+.img-rounded {
+    width: 463px;
+    height: 463px;
+    flex-shrink: 0;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    background-image: url(images/Ellipse\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 120px;
+    margin-top: 70px;
+}
+
+
+
+.year-tag {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.year-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 276px;
+    margin-top: 16px;
+}
+
+.year-img {
+    margin-top: 43px;
+    width: 140px;
+    height: 140px;
+}
+
+
+/* holiday content */
+
+
+.holiday-tag {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.holiday-sale {
+    color: #070211;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+
+.red-holiday {
+    color: #F00;
+}
+
+.holiday-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 64px;
+}
+
+.img-more {
+    margin-bottom: 600px;
+    position: relative;
+}
+
+.women {
+    float: right;
+}
+
+.round {
+    position: absolute;
+    top: 100px;
+    left: 750px;
+    font-size: 18px;
+}
+
+.red-line {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    font-size: 18px;
+}
+
+
+/* protfolio-content */
+
+.protfolio-content {
+    margin-bottom: 120px;
+}
+
+.gift-title {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.protfolio-title {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.protfolio-desc {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+/* image flex */
+.img-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+
+.subscribe {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.mail-img {
+    display: block;
+    padding: 80px 0 40px 0;
+    margin: 0px auto;
+}
+
+.subsc-title {
+    color: #070211;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.subsc-desc {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
 }
