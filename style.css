@@ -294,7 +294,7 @@ main {
 }
 
 .img-more {
-    margin-bottom: 600px;
+    margin-bottom: 120px;
     position: relative;
 }
 
@@ -309,7 +309,7 @@ main {
     font-size: 18px;
 }
 
-.red-line {
+.gift-box {
     position: absolute;
     bottom: 20px;
     left: 50px;
